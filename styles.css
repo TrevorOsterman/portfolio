@@ -36,17 +36,18 @@ nav {
   display: inline-block;
   float: left;
   margin-left: 10px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #nav-links li {
   display: inline-block;
+  font-size: 15px;
 }
 
 #nav-links {
   float: right;
   list-style: none;
-  margin-top: 7px;
+  margin-top: 0px;
   padding-right: 10px;
 }
 
