@@ -121,6 +121,12 @@ h1 {
   margin-right: auto;
 }
 
+h1#projects-headline {
+  width: 85%;
+  border: 7px solid black;
+  margin-bottom: 20px;
+}
+
 #headline {
   text-align: left;
   font-size: 25px;
@@ -148,8 +154,12 @@ p {
   text-align: left;
 }
 
+#projects {
+  border-bottom: 7px dashed black;
+}
+
 #projects p {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 #projects a {
@@ -157,8 +167,12 @@ p {
 }
 
 .tech {
-  font-size: 10px;
+  display: block;
+  font-size: 14px;
   text-align: center;
+  font-style: italic;
+  width: 75%;
+  margin: auto auto;
 }
 
 .contact-text {
@@ -180,6 +194,21 @@ p {
 #horrorthumb {
   max-width: 700px;
 }
+
+#github h3, #contact h3 {
+  width: 90%;
+  margin: auto auto;
+  padding-bottom: 35px;
+}
+
+.contact-text {
+  padding: 10px 10px 0 10px;
+  font-size: 18px;
+}
+
+/* #githubicon {
+  padding-top: 35px;
+} */
 
 .soc-icon {
   height: 70px;
@@ -245,6 +274,10 @@ footer {
     max-width: 80%;
   }
 
+  .tech {
+    font-size: 16px;
+  }
+
   #github, #contact {
     width: 45%;
   }
@@ -258,4 +291,12 @@ footer {
     float: right;
     margin-right: 5%;
   }
+}
+
+@media screen and (max-width: 320px) {
+
+  .name {
+    display: none;
+  }
+
 }
