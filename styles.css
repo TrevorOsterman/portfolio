@@ -6,6 +6,11 @@
   cursor: crosshair;
 }
 
+@font-face {
+  font-family: 'Chomsky';
+  src: url(Chomsky.otf);
+}
+
 a:hover {
   cursor: pointer;
 }
