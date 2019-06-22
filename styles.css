@@ -124,7 +124,7 @@ h2 {
 
 section {
   min-height: 200px;
-  padding: 6% 0;
+  padding: 20px 0;
   background-color: white;
   max-width: 500px;
   margin-left: auto;
@@ -178,10 +178,11 @@ footer {
   font-size: 20px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 750px) {
   #portrait {
     float: right;
     margin: 0 5%;
+    max-width: 35%;
   }
 
   #nav-links a {
@@ -196,5 +197,19 @@ footer {
 
   #hamburg {
     display: none;
+  }
+
+  section#about {
+    margin: 0;
+    width: 100%;
+    max-width: none;
+  }
+
+  #about h1 {
+    margin: 0;
+  }
+
+  #projects {
+    clear: both;
   }
 }
