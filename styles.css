@@ -25,6 +25,10 @@ body {
   background-color: white;
 }
 
+main {
+  max-width: 1600px;
+}
+
 nav,
 footer {
   padding: 1% 0;
