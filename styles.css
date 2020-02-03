@@ -2,22 +2,22 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'B612 Mono', monospace;
+  font-family: "B612 Mono", monospace;
   cursor: crosshair;
 }
 
 @font-face {
-  font-family: 'Chomsky';
+  font-family: "Chomsky";
   src: url(Chomsky.otf);
 }
 
-a:hover, img:hover {
+a:hover,
+img:hover {
   cursor: pointer;
 }
 
 body {
-  font-family: "Open Sans",
-  sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   color: #444;
   text-align: center;
@@ -38,7 +38,7 @@ footer {
 }
 
 footer a {
-  font-family: 'Chomsky';
+  font-family: "Chomsky";
   text-decoration: none;
   color: white;
   font-size: 30px;
@@ -53,8 +53,9 @@ nav {
   text-align: center;
 }
 
-.init, .name {
-  font-family: 'Chomsky';
+.init,
+.name {
+  font-family: "Chomsky";
   display: inline-block;
   float: left;
   margin-left: 10px;
@@ -67,7 +68,7 @@ nav {
 #nav-links li {
   display: inline-block;
   font-size: 25px;
-  font-family: 'Chomsky';
+  font-family: "Chomsky";
   display: none;
 }
 
@@ -87,7 +88,7 @@ nav {
 }
 
 #ham-links a {
-  font-family: 'Chomsky';
+  font-family: "Chomsky";
   text-decoration: none;
   color: white;
   font-size: 25px;
@@ -96,6 +97,10 @@ nav {
 #hamburg {
   margin-top: 10px;
   float: right;
+}
+
+#portrait {
+  max-width: 100%;
 }
 
 .menu-show {
@@ -109,8 +114,6 @@ nav {
   padding-right: 20px;
   /* display: none; */
 }
-
-
 
 header {
   padding: 0;
@@ -193,13 +196,12 @@ p {
   width: 100%;
 }
 
-
-
 .thumb {
   max-width: 700px;
 }
 
-#github h3, #contact h3 {
+#github h3,
+#contact h3 {
   width: 90%;
   margin: auto auto;
   padding-bottom: 35px;
@@ -232,7 +234,7 @@ footer {
   }
 
   #nav-links a {
-    font-family: 'Chomsky';
+    font-family: "Chomsky";
     color: white;
     text-decoration: none;
   }
@@ -282,7 +284,8 @@ footer {
     font-size: 16px;
   }
 
-  #github, #contact {
+  #github,
+  #contact {
     width: 45%;
   }
 
@@ -298,9 +301,7 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
-
   .name {
     display: none;
   }
-
 }
